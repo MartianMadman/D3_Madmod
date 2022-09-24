@@ -1,4 +1,4 @@
-Small overhaul mod to increase the pace of Doom 3.
+Small overhaul mod to speedup the pacing of Doom 3.
 
 \Changes/
 -Disable gibbing for non explosive weapons.
