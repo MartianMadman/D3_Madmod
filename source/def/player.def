@@ -782,9 +782,9 @@ entityDef player_base {
 	"pm_noclipspeed"					"200"
 	"pm_minviewpitch"					"-89"	// looking up
 	"pm_maxviewpitch"					"89"	// looking down
-	"pm_stamina"						"24"
+	"pm_stamina"						"0"
 	"pm_staminathreshold"				"4"
-	"pm_staminarate"					"0.0"
+	"pm_staminarate"					"0.75"
 	"pm_crouchheight"					"38"
 	"pm_crouchviewheight"				"32"
 
