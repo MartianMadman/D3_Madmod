@@ -1,0 +1,9 @@
+Small overhaul mod to increase the pace of Doom 3.
+
+\Changes/
+-Disable gibbing for non explosive weapons.
+-Reduce bullet spread for shotgun.
+-Increase player movement speed.
+-Increase fire rate of pistol.
+-Increase shotgun reload time.
+-Remove fall damage.
