@@ -9,6 +9,7 @@ Small overhaul mod to speedup the pacing of Doom 3.
 -Increase fire rate of pistol.
 -Increase shotgun reload time.
 -Reduce size of ammo pickups.
+-Reduce health pickups.
 -Remove fall damage.
 -Infinte sprint.
 -Always run.
