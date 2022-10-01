@@ -6,6 +6,7 @@ Small overhaul mod to speedup the pacing of Doom 3.
 -Reduce bullet spread for shotgun.
 -Reduce damage delt from shotgun.
 -Increase player movement speed.
+-Use nearest texture filtering.
 -Increase fire rate of pistol.
 -Increase shotgun reload time.
 -Reduce size of ammo pickups.
