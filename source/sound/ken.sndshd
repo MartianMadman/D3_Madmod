@@ -1,0 +1,13 @@
+
+
+hellquake 
+{
+	minDistance	3
+	maxDistance	24
+	volume		0
+	no_occlusion
+	//sound/xian/unsettling/shultz_01.wav
+	sound/kenneth/hell_hub2.wav
+
+}
+
