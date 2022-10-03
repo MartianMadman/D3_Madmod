@@ -21,16 +21,16 @@ entityDef ammo_types {
 }
 
 entityDef ammo_names {
-	"ammo_none"				"None"
-	"ammo_shells"			"Shells"
-	"ammo_bullets"			"Bullets"
-	"ammo_rockets"			"Rockets"
-	"ammo_cells"			"Cells"
-	"ammo_grenades"			"Hand Grenades"
-	"ammo_souls"			"Souls"
-	"ammo_bfg"				"BFG Cell"
-	"ammo_clip"				"Clip"
-	"ammo_belt"				"Ammo Belt"
+	"ammo_none"				"#str_00918"
+	"ammo_shells"			"#str_07009"
+	"ammo_bullets"			"#str_07010"
+	"ammo_rockets"			"#str_07011"
+	"ammo_cells"			"#str_07012"
+	"ammo_grenades"			"#str_07013"
+	"ammo_souls"			"#str_07014"
+	"ammo_bfg"				"#str_07015"
+	"ammo_clip"				"#str_07016"
+	"ammo_belt"				"#str_07017"
 }
 
 entityDef ammo_bullets_small {
