@@ -795,8 +795,8 @@ entityDef player_base {
 	"pm_crouchrate"						"0.87"
 	"pm_bboxwidth"						"32"
 	"pm_crouchbob"						"0.5"		// ducked characters bob much faster
-	"pm_walkbob"						"0.3"		// walking bobs slow
-	"pm_runbob"							"0.4"		// faster speeds bob faster
+	"pm_walkbob"						"0.4"		// walking bobs slow
+	"pm_runbob"							"0.3"		// faster speeds bob faster
 	"pm_modelview"						"0"			// 0 == normal, 1 == view inside model, 2 == view inside model when dead
 	"pain_delay"						"0.5"		// how long to wait before playing pain sound
 	"respawn_delay"						"1.7"		// minimum delay for respawning after death
