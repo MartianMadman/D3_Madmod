@@ -56,6 +56,8 @@ entityDef weapon_flashlight {
 	"flashTime"					"0.016"
 	"flashRadius"				"400"
 	"silent_fire"				"1"
+	"recoilTime"				"75"
+	"recoilAngles"				"-1 0 0"
 	"flashAngle"				"22.0"
 	"flashTarget"				"0 0 1280"
 	"flashUp"					"0 640 0"
