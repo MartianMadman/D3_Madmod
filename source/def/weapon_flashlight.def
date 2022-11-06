@@ -59,9 +59,9 @@ entityDef weapon_flashlight {
 	"recoilTime"				"75"
 	"recoilAngles"				"-1 0 0"
 	"flashAngle"				"22.0"
-	"flashTarget"				"0 0 1280"
-	"flashUp"					"0 640 0"
-	"flashRight"				"-640 0 0"
+	"flashTarget"				"280 120 1280"
+	"flashUp"					"0 800 0"
+	"flashRight"				"-800 0 0"
 	"flashPointLight"			"0"
 
 	"snd_acquire"				"flashlight_pickup"
@@ -95,7 +95,7 @@ model worldmodel_flashlight {
 
 model viewmodel_flashlight {
 	mesh						models/md5/items/flashlight_view/viewflashlight.md5mesh
-	offset						( -7 2 16 )
+	offset						( -7 3 16 )
 
 	anim idle 					models/md5/items/flashlight_view/idle.md5anim
 	anim fire1 					models/md5/items/flashlight_view/swing1.md5anim
