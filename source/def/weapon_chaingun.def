@@ -118,9 +118,6 @@ model viewmodel_chaingun {
 	mesh 						models/md5/weapons/chaingun_view/viewchaingun.md5mesh
 	offset						( 0.5 -2.5 -8.5 )
 
-	anim raise					models/md5/weapons/chaingun_view/raise.md5anim {
-		frame	1				sound_body player_chaingun_acquire
-	}
 	anim idle1 					models/md5/weapons/chaingun_view/idle.md5anim
 	anim windup					models/md5/weapons/chaingun_view/windup.md5anim {
 		frame	1				sound_body3 player_chaingun_windup
@@ -134,7 +131,6 @@ model viewmodel_chaingun {
 	anim winddown				models/md5/weapons/chaingun_view/winddown.md5anim {
 			frame	1				sound_body3 player_chaingun_winddown
 	}
-	anim putaway				models/md5/weapons/chaingun_view/lower.md5anim
 	anim reload					models/md5/weapons/chaingun_view/reload.md5anim {
 		frame	17				sound_body player_chaingun_reload
 	}

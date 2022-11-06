@@ -119,9 +119,6 @@ model worldmodel_shotgun {
 model viewmodel_shotgun {
 	mesh						models/md5/weapons/shotgun_view/viewshotgun.md5mesh
 	
-	anim raise					models/md5/weapons/shotgun_view/raise.md5anim {
-		frame 1					sound_body player_shotgun_raise
-	}
 	anim idle 					models/md5/weapons/shotgun_view/idle.md5anim
 	anim fire1 					models/md5/weapons/shotgun_view/fire1.md5anim {
 		frame 1					sound_weapon player_shotgun_fire
@@ -154,7 +151,6 @@ model viewmodel_shotgun {
 	anim noammo					models/md5/weapons/shotgun_view/empty.md5anim {
 		frame 1					sound_voice player_shotgun_empty
 	}
-	anim putaway				models/md5/weapons/shotgun_view/lower.md5anim 
 }
 
 entityDef	damage_shotgun {

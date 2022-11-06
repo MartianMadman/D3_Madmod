@@ -129,9 +129,6 @@ model worldmodel_plasmagun {
 
 model viewmodel_plasmagun {
 	mesh 						models/md5/weapons/plasmagun_view/viewplasmagun.md5mesh
-	anim raise					models/md5/weapons/plasmagun_view/raise.md5anim {
-		frame	1				sound_weapon player_plasma_raise
-	}
 	anim guiup					models/md5/weapons/plasmagun_view/raise2up.md5anim
 	anim guiidle				models/md5/weapons/plasmagun_view/raise2idle.md5anim
 	anim idle 					models/md5/weapons/plasmagun_view/idle.md5anim
@@ -141,7 +138,6 @@ model viewmodel_plasmagun {
 	anim fire2 					models/md5/weapons/plasmagun_view/fire2.md5anim {
 		frame 1					sound_weapon plasma_fire	
 	}
-	anim putaway				models/md5/weapons/plasmagun_view/lower.md5anim
 	anim reload					models/md5/weapons/plasmagun_view/reload.md5anim {
 		frame 1					sound_weapon plasma_reload
 	}

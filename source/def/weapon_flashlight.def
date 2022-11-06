@@ -97,13 +97,9 @@ model viewmodel_flashlight {
 	mesh						models/md5/items/flashlight_view/viewflashlight.md5mesh
 	offset						( -7 2 16 )
 
-	anim raise					models/md5/items/flashlight_view/raise.md5anim {
-		frame	1				sound_weapon flashlight_raise
-	}
 	anim idle 					models/md5/items/flashlight_view/idle.md5anim
 	anim fire1 					models/md5/items/flashlight_view/swing1.md5anim
 	anim fire2 					models/md5/items/flashlight_view/swing2.md5anim
-	anim putaway				models/md5/items/flashlight_view/lower.md5anim
 	anim reload					models/md5/items/flashlight_view/pushbutton.md5anim
 	anim noammo					models/md5/items/flashlight_view/idle.md5anim
 }

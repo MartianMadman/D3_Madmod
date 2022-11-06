@@ -118,9 +118,6 @@ model worldmodel_machinegun {
 
 model viewmodel_machinegun {
 	mesh 					models/md5/weapons/machinegun_view/viewmachinegun.md5mesh
-	anim raise				models/md5/weapons/machinegun_view/pullup.md5anim {
-		frame 1				sound_body player_machinegun_raise
-	}
 	anim idle 				models/md5/weapons/machinegun_view/idle.md5anim
 	anim fire1				models/md5/weapons/machinegun_view/fire4.md5anim {
 		frame 1				sound_voice player_machinegun_fire
@@ -132,7 +129,6 @@ model viewmodel_machinegun {
 	anim noammo				models/md5/weapons/machinegun_view/empty.md5anim {
 		frame 1				sound_voice player_machinegun_empty	
 	}
-	anim putaway			models/md5/weapons/machinegun_view/putaway.md5anim
 }
 
 entityDef damage_bullet_machinegun {

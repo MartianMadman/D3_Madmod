@@ -60,9 +60,6 @@ model viewmodel_fists {
 	mesh			models/md5/weapons/fists_view/fists.md5mesh
 	offset			( -10 0 -6.5 )
 
-	anim raise			models/md5/weapons/fists_view/raise.md5anim {
-		frame	1		sound_weapon fist_raise
-	}
 	anim idle 			models/md5/weapons/fists_view/idle.md5anim
 	anim berserk_idle 	models/md5/weapons/fists_view/berserk_idle.md5anim
 	anim aim 			models/md5/weapons/fists_view/idle.md5anim
@@ -70,7 +67,6 @@ model viewmodel_fists {
 	anim punch_left2	models/md5/weapons/fists_view/berserk_punch3.md5anim
 	anim punch_right1	models/md5/weapons/fists_view/berserk_punch2.md5anim
 	anim punch_right2	models/md5/weapons/fists_view/berserk_punch4.md5anim
-	anim putaway 		models/md5/weapons/fists_view/lower.md5anim
 }
 
 entityDef damage_fists {
