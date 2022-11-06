@@ -2,17 +2,17 @@ Small overhaul mod to speedup the pacing of Doom 3.
 
 \Changes/
 -Add camera shake to fists and flashlight melee.
+-Reduce bullet spread for shotgun and chaingun.
 -Allow shadows from plasma projectile lights.
 -Disable gibbing for non explosive weapons.
--Reduce bullet spread for shotgun.
+-Reduce size of ammo and health pickups.
+-Use dynamic light casting tracers.
 -Reduce damage delt from shotgun.
+-Increase shotgun reloading time.
 -Increase player movement speed.
 -Use nearest texture filtering.
 -Increase fire rate of pistol.
--Increase shotgun reload time.
--Reduce size of ammo pickups.
 -Instant weapon swapping.
--Reduce health pickups.
--Remove fall damage.
+-Disable fall damage.
+-Use always run.
 -Infinte sprint.
--Always run.
