@@ -38,14 +38,12 @@ void weapon_pistol::init() {
 
 void weapon_pistol::Raise() {
 	weaponRising();
-	playAnim( ANIMCHANNEL_ALL, "raise" );
 	waitUntil( animDone( ANIMCHANNEL_ALL, PISTOL_RAISE_TO_IDLE ) );
 	weaponState( "Idle", PISTOL_RAISE_TO_IDLE );
 }
 
 void weapon_pistol::Lower() {
 	weaponLowering();
-	playAnim( ANIMCHANNEL_ALL, "putaway" );
 	waitUntil( animDone( ANIMCHANNEL_ALL, 0 ) );
 	weaponHolstered();
 	waitUntil( WEAPON_RAISEWEAPON );

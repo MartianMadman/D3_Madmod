@@ -46,14 +46,12 @@ void weapon_shotgun::init() {
 
 void weapon_shotgun::Raise() {
 	weaponRising();
-	playAnim( ANIMCHANNEL_ALL, "raise" );
 	waitUntil( animDone( ANIMCHANNEL_ALL, SHOTGUN_RAISE_TO_IDLE ) );
 	weaponState( "Idle", SHOTGUN_RAISE_TO_IDLE );
 }
 
 void weapon_shotgun::Lower() {
 	weaponLowering();
-	playAnim( ANIMCHANNEL_ALL, "putaway" );
 	waitUntil( animDone( ANIMCHANNEL_ALL, 0 ) );
 	weaponHolstered();
 	waitUntil( WEAPON_RAISEWEAPON );
