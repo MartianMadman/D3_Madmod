@@ -165,17 +165,16 @@ entityDef projectile_bullet_machinegun {
 	"mins"						"-1 -1 -1"
 	"maxs"						"1 1 1"
 	"cone"						"3"
-//	"model" 					"models/items/projectiles/rocket.ase"
+	"model" 					"models/particles/tracer/tracer.lwo"
 	"scale"						"0.1"
-	"noshadows"					"1"
 
 	"model_tracer"				"models/particles/tracer/tracer.lwo"
 
 	"def_damage"				"damage_bullet_machinegun"
 
-	"launchFromBarrel"			"0"
+	"launchFromBarrel"			"1"
 	"health"					"0"
-	"velocity"					"7200 0 0"	// .38 Special 600 fps.  Source: Petzal, David E. "How fast is a speeding bullet." Field and Stream. 97 (1992): 23
+	"velocity"					"3000 0 0"	// .38 Special 600 fps.  Source: Petzal, David E. "How fast is a speeding bullet." Field and Stream. 97 (1992): 23
 	"angular_velocity"			"0 0 0"
 	"thrust"					"0"
 	"thrust_start"				"0"
@@ -207,15 +206,15 @@ entityDef projectile_bullet_machinegun {
 	"smoke_bounce"				""	//particles/bullet_sparks.particle"
 	"smoke_fuse"				""
 								
-	"mtr_light_shader"			""
-	"light_color"				"0 0 0"
-	"light_radius"				"0"
+	"mtr_light_shader"			"lights/roundfire"
+	"light_color"				"1 0.8 0.2"
+	"light_radius"				"120"
 	"light_offset"				"0 0 0"
 
-	"mtr_explode_light_shader"	""
-	"explode_light_color"		"0 0 0"
-	"explode_light_radius"		"0"
-	"explode_light_fadetime"	"0"
+	"mtr_explode_light_shader"	"muzzleflash"
+	"explode_light_color"		"1 0.8 0.2"
+	"explode_light_radius"		"120"
+	"explode_light_fadetime"	"0.25"
 	
 	"snd_tracer"				"bullet_flight"
 	"snd_ricochet"				"bullet_ricochet"
