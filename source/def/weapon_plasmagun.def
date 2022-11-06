@@ -204,7 +204,7 @@ entityDef projectile_plasmablast {
 	"light_offset"				"0 0 0"
 
 	"mtr_explode_light_shader"	"muzzleflash"
-	"explode_light_color"		"0 0 1"
+	"explode_light_color"		"0 0.6 1"
 	"explode_light_radius"		"160"
 	"explode_light_fadetime"	"0.25"
 
