@@ -12,6 +12,7 @@ Small overhaul mod to speedup the pacing of Doom 3.
 -Increase player movement speed.
 -Use nearest texture filtering.
 -Increase fire rate of pistol.
+-Increase decal fade times.
 -Instant weapon swapping.
 -Add rocket boosting.
 -Disable fall damage.
