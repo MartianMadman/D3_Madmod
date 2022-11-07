@@ -346,10 +346,10 @@ entityDef projectile_rev_rocket {
 	// parametric particles -- temp
 	"model_detonate"				"rocketExplosion.prt"
 
-	"mtr_light_shader"				""
-	"light_color"					"0.9 0.6 0.05"
+	"mtr_light_shader"				"lights/roundfire"
+	"light_color"					"1.0 0.8 0.4"
 	"light_radius"					"160"
-	"light_offset"					"0 0 -16"
+	"light_offset"					"0 0 0"
 
 	"mtr_explode_light_shader"		"muzzleflash"
 	"explode_light_color"			"1 0.8 0.4"
