@@ -1,8 +1,8 @@
 Small overhaul mod to speedup the pacing of Doom 3.
 
 \Changes/
+-Increase delay before demon corpses "burnaway" to 50 seconds.
 -Add camera shake to fists and flashlight melee.
--Increase delay before demon corpses "burnaway".
 -Reduce bullet spread for shotgun and chaingun.
 -Allow shadows from plasma projectile lights.
 -Disable gibbing for non explosive weapons.
