@@ -1,0 +1,112 @@
+/***********************************************************************
+
+	monster_demon_d3xp_bruiser.def
+
+***********************************************************************/
+
+export James {
+ 	options -prefix B_ -keep Lknee Rknee -keep ROT -align movement -parent spine_1 ROT -parent ROT body -sourcedir models/monsters/d3xp_bruiser/cycles -destdir models/md5/monsters/d3xp_bruiser
+
+	mesh	d3xp_bruiser_mesh.mb -dest d3xp_bruiser
+	anim	idle.mb
+	anim	af_pose.mb
+	anim	walk.mb
+	anim	range_attack1.mb
+	anim	pain_left.mb
+	anim	pain_right.mb
+}
+
+model monster_demon_d3xp_bruiser {
+	mesh							models/md5/monsters/d3xp_bruiser/d3xp_bruiser.md5mesh
+	channel torso					( *spine_1 )
+	channel legs					( *Hips origin body ROT )
+
+	anim af_pose					models/md5/monsters/d3xp_bruiser/af_pose.md5anim
+	anim ik_pose					models/md5/monsters/d3xp_bruiser/af_pose.md5anim
+	anim idle						models/md5/monsters/d3xp_bruiser/idle.md5anim
+	anim stand						models/md5/monsters/d3xp_bruiser/idle.md5anim
+	anim walk						models/md5/monsters/d3xp_bruiser/walk.md5anim
+	anim pain_left_arm				models/md5/monsters/d3xp_bruiser/pain_left.md5anim
+	anim pain_right_arm				models/md5/monsters/d3xp_bruiser/pain_right.md5anim
+	anim range_attack1				models/md5/monsters/d3xp_bruiser/range_attack1.md5anim
+	
+	//anim teleport					models/md5/monsters/d3xp_bruiser/teleport.md5anim
+	//anim turret_attack			models/md5/monsters/d3xp_bruiser/range_attack2.md5anim
+	//anim melee_attack1			models/md5/monsters/d3xp_bruiser/attack1.md5anim
+	//anim melee_attack2			models/md5/monsters/d3xp_bruiser/attack2.md5anim
+	//anim melee_attack3			models/md5/monsters/d3xp_bruiser/attack3.md5anim
+	//anim melee_attack4			models/md5/monsters/d3xp_bruiser/attack4.md5anim
+	//anim evade_left				models/md5/monsters/d3xp_bruiser/evade_left.md5anim
+	//anim evade_right				models/md5/monsters/d3xp_bruiser/evade_right.md5anim
+	//anim pain 					models/md5/monsters/d3xp_bruiser/pain_chest1.md5anim
+	//anim pain_chest				models/md5/monsters/d3xp_bruiser/pain_chest1.md5anim
+	//anim pain_head				models/md5/monsters/d3xp_bruiser/pain_head1.md5anim
+	
+	//anim sight					models/md5/monsters/d3xp_bruiser/sight2.md5anim
+	//anim af_pose					models/md5/monsters/d3xp_bruiser/af_pose.md5anim
+	//anim ik_pose					models/md5/monsters/d3xp_bruiser/af_pose.md5anim
+
+}
+
+entityDef monster_demon_d3xp_bruiser {
+	"inherit"						"monster_default"
+	"model"							"monster_demon_d3xp_bruiser"
+	//"scriptobject"				"monster_demon_d3xp_bruiser"
+	//"ragdoll"						"monster_demon_d3xp_bruiser"
+	"size"							"48 48 68"
+	"use_aas"						"aas48"
+	"team"							"1"
+	"rank"							"2"
+	"health"						"425"
+	"attack_cone"					"70"
+	"attack_accuracy"				"0"
+	"melee_range"					"48"
+	"bone_focus"					"Head"
+	"burnaway"						"50"
+	"smoke_burnParticleSystem"		"burn_imp.prt-chest"
+	"delay"							"2"
+	
+	"look_min"						"-90 -125 0"
+	"look_max"						"25 125 0"
+	"look_joint Waist"				"0.4 0.4 0"
+	"look_joint Head"				"0.6 0.6 0"
+	
+	"damage_zone head"				"*neck_2"
+	"damage_zone chest"				"*spine_1 -*r_clav -*l_clav -*neck_2"
+	"damage_zone left_arm"			"*r_clav"
+	"damage_zone right_arm"			"*l_clav"
+	"damage_scale head"				"2"
+	"mass"   						"850"
+
+	"ik_numLegs"					"2"
+	"ik_footSize"					"8"
+	"ik_footDownTrace"				"64"
+	"ik_waist"						"body"
+	"ik_hip1"						"l_upleg"
+	"ik_hip2"						"r_upleg"
+	"ik_knee1"						"l_loleg"
+	"ik_knee2"						"r_loleg"
+	"ik_ankle1"						"l_leg"
+	"ik_ankle2"						"r_leg"
+	"ik_dir1"						"Lknee"
+	"ik_dir2"						"Rknee"
+	"ik_foot1"						"ik_foot1"
+	"ik_foot2"						"ik_foot2"
+
+	"snd_sight"						"monster_demon_archvile_sight"
+	"snd_sight2"					"monster_demon_archvile_sight2"
+	"snd_chatter"					"monster_demon_archvile_chatter"
+	"snd_chatter_combat"			"monster_demon_archvile_chatter"
+	"snd_pain"						"monster_demon_archvile_pain"
+	"snd_attack"					"monster_demon_archvile_attack"
+	"snd_death"						"monster_demon_archvile_die"
+	"snd_createmissile"				"monster_demon_imp_fireball_create"
+	"snd_footstep"					"monster_demon_archvile_footstep"
+	"snd_resurrection"				"monster_demon_archvile_resurrection"
+	"snd_melee"					    "monster_demon_archvile_melee"
+	"snd_burn"						"monster_demon_archvile_burn"
+
+	"smokeParticleSystem"			"flame_r"
+	"smokeParticleSystem2"			"flame_l"
+}
+

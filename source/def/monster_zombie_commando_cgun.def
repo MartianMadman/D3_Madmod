@@ -767,7 +767,7 @@ entityDef monster_zombie_commando_cgun {
 	"gib"							"0"
 	"bleed"							"1"
 
-	"burnaway"						"0.50"
+	"burnaway"						"50"
 	"smoke_burnParticleSystem"		"burn_imp.prt-spine_1"
 
 	"blockedRadius"					"10"
