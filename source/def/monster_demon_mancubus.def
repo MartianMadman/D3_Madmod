@@ -252,15 +252,15 @@ entityDef projectile_mancubus_rocket {
 
 	"model_detonate"				"manc_explosion.prt"
 
-//	"mtr_light_shader"				""
-//	"light_color"					"0 0 0.8"
-//	"light_radius"					"160"
-//	"light_offset"					"-8 0 0"
+	"mtr_light_shader"				"lights/impflyflash"
+	"light_color"					"1 0.8 0.0"
+	"light_radius"					"160"
+	"light_offset"					"0 0 0"
 
-//	"mtr_explode_light_shader"		"muzzleflash"
-//	"explode_light_color"			"0 0 1"
-//	"explode_light_radius"			"160"
-//	"explode_light_fadetime"		"0.25"
+	"mtr_explode_light_shader"		"muzzleflash"
+	"explode_light_color"			"1 0.8 0.0"
+	"explode_light_radius"			"240"
+	"explode_light_fadetime"		"0.25"
 
 	"snd_fly"						"monster_demon_imp_fireball_flight"					// sound effect while in the air
 	"snd_explode"					"monster_demon_imp_fireball_explode"
