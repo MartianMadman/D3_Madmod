@@ -1,9 +1,9 @@
 Overhaul mod to speedup the pacing of Doom 3.
 
 \Changes/
+-Disabled gibbing in favor of keeping ragdoll corpses throughout the levels.
 -Increased despawn delay for decals, corpses, and debris.
 -Reduced shotgun and chaingun bullet spread.
--Disabled gibbing for non explosive weapons.
 -Added slight camera shake to player melee.
 -Plasma gun projectile lights cast shadows.
 -Replaced sprinting with always run.
