@@ -146,7 +146,7 @@ entityDef damage_chainsaw {
 	"knockback"			"40"
 	"push"				"2000"
 
-	"gib"				"1"
+	"gib"				"0"
 	"smoke_wound_flesh"	"chainsawwound.prt"
 	"mtr_wound_flesh"	"textures/decals/hurt02"
 	"mtr_splat_flesh"	"textures/decals/dsplat2"

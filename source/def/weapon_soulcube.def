@@ -109,13 +109,13 @@ entityDef damage_soulSplash {
 	"radius"			"100"
 	"knockback"			"80"
 	"push"				"10000"
-	"gib"				"1"
+	"gib"				"0"
 	"smoke_wound_flesh"	"bloodwound.prt"
 }
 
 entityDef	damage_soulblast {
 	"damage"			"1000"
-	"gib"				"1"
+	"gib"				"0"
 }
 
 entityDef projectile_soulblast {

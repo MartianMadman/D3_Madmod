@@ -128,7 +128,7 @@ entityDef damage_grenadeDirect {
 	"push"						"1000"
 	"mtr_wound_flesh"			"textures/decals/hurt02"
 	"mtr_splat_flesh"			""
-	"gib"						"1"
+	"gib"						"0"
 	"smoke_wound_flesh"			"bloodwound.prt"
 }
 
@@ -139,7 +139,7 @@ entityDef damage_grenadeSplash {
 	"push"						"10000"
 	"attackerDamageScale"		"0.2"
 	"attackerPushScale"			"0.2"
-	"gib"						"1"
+	"gib"						"0"
 }
 
 entityDef damage_grenadeSplash_inhand {

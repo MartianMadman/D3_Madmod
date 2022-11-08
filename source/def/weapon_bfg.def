@@ -130,14 +130,14 @@ model viewmodel_bfg {
 entityDef damage_bfg {
 	"damage"					"200"
 	"push"						"1000"
-	"gib"						"1"
+	"gib"						"0"
 	"smoke_wound_flesh"			"bloodwound.prt"
 }
 
 entityDef damage_bfgFreq {
 	"damage"					"5"
 	"push"						"0"
-	"gib"						"1"
+	"gib"						"0"
 	"snd_flesh"					"bullet_impact_flesh"
 }
 
@@ -148,7 +148,7 @@ entityDef damage_bfgSplash {
 	"push"						"7000"
 	"attackerDamageScale"		"0.2"
 	"attackerPushScale"			"0.2"
-	"gib"						"1"
+	"gib"						"0"
 }
 
 entityDef projectile_bfg {

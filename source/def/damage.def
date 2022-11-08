@@ -181,15 +181,15 @@ entityDef damage_suicide {
 
 entityDef damage_crush {			
 	"damage"						"9999"
-	"gib"							"1"
-	"gibNonSolid"					"1"
+	"gib"							"0"
+	"gibNonSolid"					"0"
 	"noArmor"						"1"
 	"noGod"							"1"
 }
 
 entityDef damage_gib {			
 	"damage"						"9999"
-	"gib"							"1"
+	"gib"							"0"
 	"noArmor"						"1"
 	"noGod"							"1"
 }
@@ -205,7 +205,7 @@ entityDef damage_explodingbarrel {
 	"radius"						"140"
 	"push"							"2000"
 	"knockback"						"100"
-	"gib"							"1"
+	"gib"							"0"
 }
 
 entityDef damage_Smallexplosion {
@@ -224,8 +224,8 @@ entityDef damage_HugeExplosion {
 
 entityDef damage_moverCrush {
 	"damage"						"1"
-	"gib"							"1"
-	"gibNonSolid"					"1"
+	"gib"							"0"
+	"gibNonSolid"					"0"
 }
 
 entityDef damage_painTrigger {

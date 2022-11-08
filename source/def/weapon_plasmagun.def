@@ -73,7 +73,7 @@ entityDef weapon_plasmagun {
 	"flashRadius"				"120"
 	"silent_fire"				"0"
 	"smoke_muzzle"				"plasmamuzzlesmoke.prt"
-	"gib"				"1"
+	"gib"				"0"
 
 	"weaponAngleOffsetAverages" "15"
 	"weaponAngleOffsetScale" 	".40"

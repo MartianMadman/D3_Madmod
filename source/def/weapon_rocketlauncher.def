@@ -193,7 +193,7 @@ entityDef damage_rocketDirect {
 	"push"						"1000"
 	"mtr_wound_flesh"			"textures/decals/hurt02"
 	"mtr_splat_flesh"			""
-	"gib"						"1"
+	"gib"						"0"
 	"smoke_wound_flesh"			"bloodwound.prt"
 }
 
@@ -204,5 +204,5 @@ entityDef damage_rocketSplash {
 	"push"						"10000"
 	"attackerDamageScale"		"0.2"
 	"attackerPushScale"			"0.2"
-	"gib"						"1"
+	"gib"						"0"
 }

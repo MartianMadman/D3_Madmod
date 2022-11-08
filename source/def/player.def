@@ -843,7 +843,7 @@ entityDef player_base {
 
 	"ragdoll"							"player_npcs"
 
-	"gib"								"1"
+	"gib"								"0"
 	"def_dropGibItem"					"moveable_item_head_pork"
 	"dropGibItemJoint"					"Head"
 	"skin_dropGib"						"skins/characters/player/marine_mp_death.skin"
