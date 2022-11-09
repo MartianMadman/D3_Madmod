@@ -347,12 +347,12 @@ entityDef projectile_rev_rocket {
 	"model_detonate"				"rocketExplosion.prt"
 
 	"mtr_light_shader"				"lights/roundfire"
-	"light_color"					"1.0 0.8 0.4"
+	"light_color"					"2.0 1.6 0.8"
 	"light_radius"					"160"
 	"light_offset"					"0 0 0"
 
 	"mtr_explode_light_shader"		"muzzleflash"
-	"explode_light_color"			"1 0.8 0.4"
+	"explode_light_color"			"2 1.6 0.8"
 	"explode_light_radius"			"160"
 	"explode_light_fadetime"		"0.25"
 
