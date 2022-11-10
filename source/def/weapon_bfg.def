@@ -71,7 +71,7 @@ entityDef weapon_bfg {
 	"powerAmmo"					"1"
 	"mtr_flashShader"			"lights/bfg_flare"
 	"flashColor"				"0.8 1 0.7"
-	"flashRadius"				"32"
+	"flashRadius"				"340"
 	"silent_fire"				"0"
 
 	"snd_acquire"				"sound_weapon_acquire"
@@ -214,12 +214,12 @@ entityDef projectile_bfg {
 
 	"mtr_light_shader"			"lights/baronflash"
 	"light_color"				"1 1 1"
-	"light_radius"				"160"
+	"light_radius"				"340"
 	"light_offset"				"0 0 -16"
 
 	"mtr_explode_light_shader"	"muzzleflash"
 	"explode_light_color"		"0 1 0"
-	"explode_light_radius"		"300"
+	"explode_light_radius"		"340"
 	"explode_light_fadetime"	"0.25"
 
 								// sound effect while in the air

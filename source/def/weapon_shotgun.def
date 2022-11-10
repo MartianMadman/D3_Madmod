@@ -66,7 +66,7 @@ entityDef weapon_shotgun {
 	"lowAmmo"					"2"
 	"mtr_flashShader"			"muzzleflash"
 	"flashColor"				"1 0.8 0.4"
-	"flashRadius"				"120"
+	"flashRadius"				"180"
 	"silent_fire"				"0"
 	"recoilTime"				"325"
 	"recoilAngles"				"-1 0 0"
@@ -267,12 +267,12 @@ entityDef projectile_bullet_shotgun {
 	"smoke_fuse"				""
 
 	"mtr_light_shader"			"lights/roundfire"
-	"light_color"				"1 0.8 0.2"
-	"light_radius"				"120"
+	"light_color"				"1 0.8 0.4"
+	"light_radius"				"140"
 	"light_offset"				"0 0 0"
 
 	"mtr_explode_light_shader"	"muzzleflash"
-	"explode_light_color"		"1 0.8 0.2"
-	"explode_light_radius"		"120"
+	"explode_light_color"		"1 0.8 0.4"
+	"explode_light_radius"		"100"
 	"explode_light_fadetime"	"0.25"
 }

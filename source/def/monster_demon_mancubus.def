@@ -140,6 +140,9 @@ entityDef monster_demon_mancubus {
 	"model"							"monster_demon_mancubus"
 	"ragdoll"						"monster_demon_mancubus2"
 	"size"							"122 122 96"
+	"mtr_flashShader"				"muzzleflash"
+	"flashColor"					"1 0.8 0.0"
+	"flashRadius"					"260"
 	"use_aas"						"aas_mancubus"
 	"team"							"1"
 	"rank"							"2"
@@ -254,12 +257,12 @@ entityDef projectile_mancubus_rocket {
 
 	"mtr_light_shader"				"lights/impflyflash"
 	"light_color"					"1 0.8 0.0"
-	"light_radius"					"160"
+	"light_radius"					"260"
 	"light_offset"					"0 0 0"
 
 	"mtr_explode_light_shader"		"muzzleflash"
 	"explode_light_color"			"1 0.8 0.0"
-	"explode_light_radius"			"240"
+	"explode_light_radius"			"260"
 	"explode_light_fadetime"		"0.25"
 
 	"snd_fly"						"monster_demon_imp_fireball_flight"					// sound effect while in the air

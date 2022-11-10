@@ -204,7 +204,7 @@ entityDef projectile_grenade {
 
 	"mtr_explode_light_shader"	"muzzleflash"
 	"explode_light_color"		"2 1.6 0.8"
-	"explode_light_radius"		"300"
+	"explode_light_radius"		"340"
 	"explode_light_fadetime"	"0.5"
 	
 	"detonation_axis"			"0 0 1"

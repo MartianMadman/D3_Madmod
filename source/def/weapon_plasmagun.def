@@ -70,7 +70,7 @@ entityDef weapon_plasmagun {
 	"lowAmmo"					"10"
 	"mtr_flashShader"			"muzzleflash"
 	"flashColor"				"0.18 0.70 0.82"
-	"flashRadius"				"120"
+	"flashRadius"				"200"
 	"silent_fire"				"0"
 	"smoke_muzzle"				"plasmamuzzlesmoke.prt"
 	"gib"				"0"
@@ -87,7 +87,7 @@ entityDef weapon_plasmagun {
 	"nozzleFx"					"1"
 	"nozzleFxFade"				"100"
 	"nozzleGlowColor"			"0.18 0.70 0.82"
-	"nozzleGlowOffset"			"-6 2 1"
+	"nozzleGlowOffset"			"-6 2 6"
 	"nozzleGlowRadius"			"8"
 	"mtr_nozzleGlowShader"		"lights/plasmaglow"
 	
@@ -199,13 +199,13 @@ entityDef projectile_plasmablast {
 	"model_detonate"			"plasmaimpact.prt"
 
 	"mtr_light_shader"			"lights/plasmaglow"
-	"light_color"				"0 0.6 1"
-	"light_radius"				"160"
+	"light_color"				"0.18 0.70 0.82"
+	"light_radius"				"200"
 	"light_offset"				"0 0 0"
 
 	"mtr_explode_light_shader"	"muzzleflash"
-	"explode_light_color"		"0 0.6 1"
-	"explode_light_radius"		"160"
+	"explode_light_color"		"0.18 0.70 0.82"
+	"explode_light_radius"		"200"
 	"explode_light_fadetime"	"0.25"
 
 	"snd_fly"					"plasma_flight"					// sound effect while in the air

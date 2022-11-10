@@ -332,7 +332,7 @@ entityDef monster_zsec_shotgun {
 	"mtr_flashShader"				"muzzleflash"
 	"flashTime"						"0.15"
 	"flashColor"					"1 0.8 0.4"
-	"flashRadius"					"240"
+	"flashRadius"					"180"
 }
 
 entityDef damage_bullet_zsec_shotgun {
@@ -405,12 +405,12 @@ entityDef projectile_bullet_zsec_shotgun {
 	"smoke_fuse"					""
 
 	"mtr_light_shader"				"lights/roundfire"
-	"light_color"					"1 0.8 0.2"
-	"light_radius"					"120"
+	"light_color"					"1 0.8 0.4"
+	"light_radius"					"140"
 	"light_offset"					"0 0 0"
 
 	"mtr_explode_light_shader"		"muzzleflash"
-	"explode_light_color"			"1 0.8 0.2"
-	"explode_light_radius"			"120"
+	"explode_light_color"			"1 0.8 0.4"
+	"explode_light_radius"			"100"
 	"explode_light_fadetime"		"0.25"
 }
