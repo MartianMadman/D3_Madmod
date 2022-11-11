@@ -501,7 +501,7 @@ model model_sp_marine {
 	}
 	anim run_jump						models/md5/characters/npcs/playermoves/walkjump1.md5anim {
 		prevent_idle_override
-		frame 1							sound_body player_sounds_jump
+		frame 1							sound_body player_sounds_jump_small
 	}
 	anim soft_land						models/md5/characters/npcs/playermoves/soft_land.md5anim {
 		prevent_idle_override
