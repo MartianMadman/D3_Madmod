@@ -324,7 +324,7 @@ entityDef projectile_rev_rocket {
 	"burstDist"						"32"
 	"burstVelocity"					"1.25"
 
-	"detonate_on_fuse"				"0"
+	"detonate_on_fuse"				"1"
 	"detonate_on_death"				"1"
 	"detonate_on_world"				"1"
 	"detonate_on_actor"				"1"
