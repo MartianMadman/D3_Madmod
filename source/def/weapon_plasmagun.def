@@ -164,7 +164,7 @@ entityDef projectile_plasmablast {
 
 	"launchFromBarrel"			"1"
 	"health"					"0"					// amount of damage projectile can take if damaged (0 means it can't be destroyed)
-	"velocity"					"700 0 0"			// how fast the projectile leaves the gun (or distance if fuse is 0)
+	"velocity"					"1400 0 0"			// how fast the projectile leaves the gun (or distance if fuse is 0)
 	"random_shader_spin"		"1"					// sets shader parm 5 which if appropriate the projectile shader will use this as an alternating spin
 	"angular_velocity"			"0 0 0"				// how the projectile is rotating when it leaves the gun
 	"thrust"					"0"					// the rate of acceleration (always in the direction of the projectiles model)
@@ -174,10 +174,10 @@ entityDef projectile_plasmablast {
 	"angular_friction"			"0"
 	"contact_friction"			"0"
 	"bounce"					"0.6"				// how much speed a projectile retains when it bounces off of objects (coefficient of restitution).  0 means no bounce.
-	"mass"						"50"
+	"mass"						"25"
 	"push"						"4000"				// additional impulse when projectile collides
 	"gravity"					"0"					// how much gravity affects the trajectory.  gravity direction is same as the entity that fired it.
-	"fuse"						"10"				// how long before the projectile is removed or self-detonates.  Use 0 for beam weapons (velocity == distance).
+	"fuse"						"5"				// how long before the projectile is removed or self-detonates.  Use 0 for beam weapons (velocity == distance).
 
 	"detonate_on_fuse"			"0"					// whether projectile should detonate when it's fuse runs out
 	"detonate_on_death"			"1"					// whether projectile should detonate when it's "killed" (health runs out)
