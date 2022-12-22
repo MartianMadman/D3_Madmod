@@ -6,6 +6,7 @@ Overhaul mod to speedup the pacing of Doom 3.
 -Reduced shotgun and chaingun bullet spread.
 -Added slight camera shake to player melee.
 -Plasma gun projectile lights cast shadows.
+-Doubled Plasmagun projectile velocity.
 -Replaced sprinting with always run.
 -Increased shotgun reloading time.
 -Increased player movement speed.
