@@ -242,7 +242,7 @@ entityDef projectile_bullet_shotgun {
 	"angular_friction"			"0"
 	"contact_friction"			"0"
 	"bounce"					"0.6"
-	"mass"						"2.0"
+	"mass"						"3"
 	"gravity"					"0"
 	"fuse"						"4"
 
