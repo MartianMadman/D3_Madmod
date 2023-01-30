@@ -44,7 +44,7 @@ entityDef weapon_handgrenade {
 
 	"inv_name"					"Hand Grenades"
 	"inv_weapon"				"weapon_handgrenade"
-	"inv_ammo_grenades" 		"5"
+	"inv_ammo_grenades" 		"4"
 	"inv_item"					"5"
 	"icon"						"guis/assets/hud/wpn_4"
 
