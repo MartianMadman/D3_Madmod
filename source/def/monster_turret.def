@@ -45,7 +45,7 @@ entityDef monster_turret {
 	"mtr_flashShader"				"muzzleflash"
 	"flashTime"						"0.15"
 	"flashColor"					"1 0.8 0.4"
-	"flashRadius"					"180"
+	"flashRadius"					"160"
 
 	"snd_wakeup"					"char_sentry_active"	//TEMP
 	"snd_shutdown"					"char_sentry_destroyed"	//TEMP
@@ -141,11 +141,11 @@ entityDef projectile_bullet_turret {
 									
 	"mtr_light_shader"				"lights/roundfire"
 	"light_color"					"1 0.8 0.4"
-	"light_radius"					"140"
+	"light_radius"					"120"
 	"light_offset"					"0 0 0"
 
 	"mtr_explode_light_shader"		"muzzleflash"
 	"explode_light_color"			"1 0.8 0.4"
-	"explode_light_radius"			"100"
+	"explode_light_radius"			"120"
 	"explode_light_fadetime"		"0.25"
 }

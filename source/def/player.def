@@ -771,7 +771,7 @@ entityDef player_base {
 	// seperate multiple weapons with commas (no spaces).
 	// NOTE: default ammo must be specified explicitly.
 	"weapon"							"weapon_fists,weapon_pistol,weapon_flashlight,weapon_pda"
-	"weapon_nightmare"					"weapon_fists,weapon_pistol,weapon_flashlight,weapon_pda,weapon_soulcube"
+	"weapon_nightmare"					"weapon_fists,weapon_pistol,weapon_flashlight,weapon_pda"
 	"current_weapon"					"0"
 	
 	"pm_jumpheight"						"55"
@@ -806,7 +806,7 @@ entityDef player_base {
 	"maxhealth"							"100"
 	"stamina"							"120"
 	"armor"								"0"
-	"maxarmor"							"125"
+	"maxarmor"							"100"
 
 	// ammo
 	"ammo_shells"						"0"
@@ -924,7 +924,6 @@ entityDef player_base {
 	"snd_burn"							"sizzle"
 	"snd_invisibility"					"invisibility_pickup"
 	"snd_megahealth"					"megasphere_pickup"
-	"snd_healthtake"					"player_takehealth"
 }
 
 /***********************************************************************

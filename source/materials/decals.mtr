@@ -250,7 +250,7 @@ textures/decals/spawndecal
 	twosided
 
 	DECAL_MACRO
-	decalInfo 0.75 10 ( 1 1 1 10 ) ( -5 -5 -5 0 )
+	decalInfo 0.75 100 ( 1 1 1 10 ) ( -5 -5 -5 0 )
 	
 	{       
 		
@@ -874,7 +874,7 @@ textures/decals/ballburn_plasma
 	qer_editorimage textures/decals/plasma_burn.tga
 
 	DECAL_MACRO
-	decalInfo 0.5 10 ( 1 1 1 10 ) ( -5 -5 -5 0 )		// fade rgb down fast (clamps to 0), but leave alpha clamped at 1 for the first nine seconds
+	decalInfo 0.5 100 ( 1 1 1 10 ) ( -5 -5 -5 0 )		// fade rgb down fast (clamps to 0), but leave alpha clamped at 1 for the first nine seconds
 	{       
       	blend		gl_zero, gl_one_minus_src_alpha
 		map			makealpha(textures/decals/plasma_burn.tga)
@@ -1260,7 +1260,7 @@ textures/decals/ballburn01
 	qer_editorimage textures/decals/ballburn01.tga
 
 	DECAL_MACRO
-	decalInfo 0.5 10 ( 1 1 1 10 ) ( -5 -5 -5 0 )		// fade rgb down fast (clamps to 0), but leave alpha clamped at 1 for the first nine seconds
+	decalInfo 0.5 100 ( 1 1 1 10 ) ( -5 -5 -5 0 )		// fade rgb down fast (clamps to 0), but leave alpha clamped at 1 for the first nine seconds
 	{       
       	blend		gl_zero, gl_one_minus_src_alpha
 		map			makealpha(textures/decals/ballburn01.tga)
@@ -1308,7 +1308,7 @@ textures/decals/bulleth03
 textures/decals/chainsawh02
 {
 	DECAL_MACRO
-	decalInfo 10 1 ( 1 1 1 1 ) ( 0 0 0 0 )
+	decalInfo 100 1 ( 1 1 1 1 ) ( 0 0 0 0 )
 	{       
       	blend	gl_zero, gl_one_minus_src_color
 		map		textures/decals/chainsawh02.tga
@@ -1334,7 +1334,7 @@ textures/decals/bulleth02
 textures/decals/testbulletglass1
 {
 	DECAL_MACRO
-	decalInfo 10 1 ( 1 1 1 1 ) ( 0 0 0 0 )
+	decalInfo 100 1 ( 1 1 1 1 ) ( 0 0 0 0 )
 	{       
       	blend	gl_zero, gl_one_minus_src_color
 		map	 textures/decals/bulletglass1_d.tga

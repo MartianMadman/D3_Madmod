@@ -909,7 +909,7 @@ entityDef moveable_burningbarrel {
 	"def_debris2"				"debris_barrelpiece"
 	"def_debris3"				"debris_barrelpiece"
 	"model_detonate"			"barrelexplosion.prt"
-	"burn"						"2.5"
+	"burn"						"50"
 	"health"					"15"
 	"snd_explode"				"barrel_explosions"
 	"mtr_lightexplode"			"lights/impflash"
@@ -987,7 +987,7 @@ entityDef moveable_burningtank {
 	"model_detonate"			"airtankexplosion.prt"
 	"model_burn"				"tankfire.prt"
 	"skin"						"skins/airtank_grey"
-	"burn"						"2.5"
+	"burn"						"50"
 	"health"					"15"
 	"snd_explode"				"barrel_explosions"
 }
