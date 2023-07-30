@@ -412,8 +412,11 @@ entityDef monster_demon_trite {
 	"blockedMoveTime"				"750"
 	"blockedAttackTime"				"750"
 
-	"burnaway"						"50"
-	"smoke_burnParticleSystem"		"burn_imp.prt-mouth"
+	"model_explode"					"trite_boomboom.prt"
+	"def_explode_damage"			"damage_trite_explode"
+
+	"burnaway"						"40"
+	"smoke_burnParticleSystem"		"trite_burst.prt-mouth"
 	
 	"ik_numLegs"					"6"
 	"ik_footSize"					"0"
@@ -468,7 +471,7 @@ entityDef monster_demon_trite {
 	"snd_chomp"						"monster_demon_trite_chomp"
 	"snd_startdrop"					"monster_demon_trite_startdrop"
 	"snd_enddrop"					"monster_demon_trite_enddrop"
-	"snd_burn"						"monster_demon_tick_burn"
+	"snd_burn"						"trite_deathsplat"
 }
 
 entityDef	melee_triteLeapAttack {

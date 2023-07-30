@@ -45,7 +45,7 @@ entityDef monster_boss_guardian_seeker {
 	"turn_rate"						"360"
 	"fly_speed"						"500"
 	"mass"   						"200"
-	"burnaway"						"50"
+	"burnaway"						"40"
 	
 	"bone_flytilt"					"body"
 	

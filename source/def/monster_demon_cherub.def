@@ -146,7 +146,7 @@ entityDef monster_demon_cherub {
 	"fly_offset"					"-40"
 	"evade_rate"					"5"
 	"model"							"monster_demon_cherub"	
-	"burnaway"						"50"
+	"burnaway"						"40"
 	"smoke_burnParticleSystem"			"burn_imp.prt-chest"
 	
 	"chatter_combat_min"			"1"

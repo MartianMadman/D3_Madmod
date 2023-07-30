@@ -175,7 +175,7 @@ entityDef monster_demon_pinky {
 	"use_aas"						"aas96"
 	"team"							"1"
 	"rank"							"1"
-	"health"						"220"
+	"health"						"440"
 	"melee_range"					"60"
 	"mass"							"300"
 
@@ -192,7 +192,7 @@ entityDef monster_demon_pinky {
 	"smoke_particleSystem"			"pinkysmoke.prt"
 	"smoke_pain"					"pinkysmokepain.smoke"
 	"particleBone"					"Waist3"
-	"burnaway"						"50"
+	"burnaway"						"40"
 	"smoke_burnParticleSystem"		"burn_imp_large.prt-waist"	
 
 	"offsetModel"					"-20 0 0"

@@ -366,7 +366,7 @@ entityDef monster_demon_imp {
 	"use_aas"						"aas48"
 	"team"							"1"
 	"rank"							"1"
-	"health"						"130"
+	"health"						"260"
 	"melee_damage" 					"35"
 	"melee_range"					"40"
 	"def_projectile"				"projectile_impfireball"
@@ -376,7 +376,7 @@ entityDef monster_demon_imp {
 	"anim"							"idle1"
 	"mass"							"200"
 
-	"burnaway"						"50"
+	"burnaway"						"40"
 	"smoke_burnParticleSystem"			"burn_imp.prt-chest"
 
 	"ik_numLegs"					"2"
@@ -531,7 +531,7 @@ entityDef monster_demon_imp_crawler {
 	"use_aas"						"aas48"
 	"team"							"1"
 	"rank"							"1"
-	"health"						"130"
+	"health"						"260"
 	"melee_damage" 					"35"
 	"melee_range"					"40"
 	"def_projectile"				"projectile_impfireball"
@@ -540,7 +540,7 @@ entityDef monster_demon_imp_crawler {
 	"offsetModel"					"-8 0 0"
 	"mass"							"150"
 	
-	"burnaway"						"50"
+	"burnaway"						"40"
 
 	"ik_numLegs"					"2"
 	"ik_footSize"					"4"

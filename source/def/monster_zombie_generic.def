@@ -139,7 +139,7 @@ entityDef monster_zombie_base {
 	"turn_rate"						"360"
 	"mass"							"150"
 	
-	"burnaway"						"50"
+	"burnaway"						"40"
 
 	"bone_focus"					"headcontrol"
 	"bone_leftEye"					"Leyeaim"

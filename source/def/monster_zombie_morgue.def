@@ -87,7 +87,7 @@ entityDef monster_zombie_morgue {
 	"model"							"model_monster_zombie_morgue"
 	"ragdoll"						"monster_zombie_morgue"
 
-	"burnaway"						"50"
+	"burnaway"						"40"
 
 	"ik_numLegs"					"2"
 	"ik_footSize"					"4"

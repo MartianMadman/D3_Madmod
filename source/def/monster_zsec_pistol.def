@@ -156,7 +156,7 @@ model model_monster_zsec_pistol {
 	}
 	anim stepoutleft_fire			models/md5/monsters/zombies/zsec_pistol/wallstepleftpistol_C.md5anim {
 		frame 2						launch_missile pistol
-		frame 2						sound_weapon monster_pistol_fire
+		frame 2						sound_weapon player_pistol_fire
 	}
 	anim stepoutleft_in				models/md5/monsters/zombies/zsec_pistol/wallstepleftpistol_D.md5anim {
 
@@ -175,7 +175,7 @@ model model_monster_zsec_pistol {
 	}
 	anim stepoutright_fire			models/md5/monsters/zombies/zsec_pistol/wallsteprightpistol_C.md5anim {
 		frame 2						launch_missile pistol
-		frame 2						sound_weapon monster_pistol_fire
+		frame 2						sound_weapon player_pistol_fire
 	}
 	anim stepoutright_in			models/md5/monsters/zombies/zsec_pistol/wallsteprightpistol_D.md5anim {
 
@@ -192,7 +192,7 @@ model model_monster_zsec_pistol {
 	}
 	anim rotoutleft1_fire			models/md5/monsters/zombies/zsec_pistol/wallrotleftpistol_C.md5anim {
 		frame 2						launch_missile pistol
-		frame 2						sound_weapon monster_pistol_fire
+		frame 2						sound_weapon player_pistol_fire
 	}
 	anim rotoutleft1_in				models/md5/monsters/zombies/zsec_pistol/wallrotleftpistol_D.md5anim {
 
@@ -209,7 +209,7 @@ model model_monster_zsec_pistol {
 	}
 	anim rotoutleft2_fire			models/md5/monsters/zombies/zsec_pistol/wallrotleftpistol2_C.md5anim {
 		frame 2						launch_missile pistol
-		frame 2						sound_weapon monster_pistol_fire
+		frame 2						sound_weapon player_pistol_fire
 	}
 	anim rotoutleft2_in				models/md5/monsters/zombies/zsec_pistol/wallrotleftpistol2_D.md5anim {
 
@@ -226,7 +226,7 @@ model model_monster_zsec_pistol {
 	}
 	anim rotoutright1_fire			models/md5/monsters/zombies/zsec_pistol/wallrotrightpistol_C.md5anim {
 		frame 2						launch_missile pistol
-		frame 2						sound_weapon monster_pistol_fire
+		frame 2						sound_weapon player_pistol_fire
 	}
 	anim rotoutright1_in			models/md5/monsters/zombies/zsec_pistol/wallrotrightpistol_D.md5anim {
 
@@ -244,7 +244,7 @@ model model_monster_zsec_pistol {
 	}
 	anim rotoutright2_fire			models/md5/monsters/zombies/zsec_pistol/wallrotrightpistol2_C.md5anim {
 		frame 2						launch_missile pistol
-		frame 2						sound_weapon monster_pistol_fire
+		frame 2						sound_weapon player_pistol_fire
 	}
 	anim rotoutright2_in			models/md5/monsters/zombies/zsec_pistol/wallrotrightpistol2_D.md5anim {
 
@@ -261,7 +261,7 @@ model model_monster_zsec_pistol {
 
 	}
 	anim craterotright_fire			models/md5/monsters/zombies/zsec_pistol/craterotrightpistol_C.md5anim {
-		frame 1						sound_weapon monster_pistol_fire
+		frame 1						sound_weapon player_pistol_fire
 		frame 1						launch_missile pistol
 	}
 	anim craterotright_in			models/md5/monsters/zombies/zsec_pistol/craterotrightpistol_D.md5anim {
@@ -273,7 +273,7 @@ model model_monster_zsec_pistol {
 
 	anim cratestand_out				models/md5/monsters/zombies/zsec_pistol/cratestandpistol_B.md5anim 
 	anim cratestand_fire			models/md5/monsters/zombies/zsec_pistol/cratestandpistol_C.md5anim {
-		frame 1						sound_weapon monster_pistol_fire
+		frame 1						sound_weapon player_pistol_fire
 		frame 1						launch_missile pistol
 	}
 	anim cratestand_in				models/md5/monsters/zombies/zsec_pistol/cratestandpistol_D.md5anim
@@ -282,7 +282,7 @@ model model_monster_zsec_pistol {
  
 	anim crouch_out					models/md5/monsters/zombies/zsec_pistol/crouch_raise.md5anim 
 	anim crouch_fire				models/md5/monsters/zombies/zsec_pistol/crouch_fire.md5anim {
-		frame 1						sound_weapon monster_pistol_fire
+		frame 1						sound_weapon player_pistol_fire
 		frame 1						launch_missile pistol
 	}					
 	anim crouch_in					models/md5/monsters/zombies/zsec_pistol/crouch_lower.md5anim {
@@ -294,7 +294,7 @@ model model_monster_zsec_pistol {
 	anim range_attack_aim			models/md5/monsters/zombies/zsec_pistol/aim.md5anim
 	anim range_attack				models/md5/monsters/zombies/zsec_pistol/raise.md5anim
 	anim range_attack_loop			models/md5/monsters/zombies/zsec_pistol/fire1.md5anim {
-		frame 1						sound_weapon monster_pistol_fire
+		frame 1						sound_weapon player_pistol_fire
 		frame 1						launch_missile pistol
 	}
 	anim range_attack_end			models/md5/monsters/zombies/zsec_pistol/lower.md5anim
@@ -302,7 +302,7 @@ model model_monster_zsec_pistol {
 	anim crouch_range_attack_aim	models/md5/monsters/zombies/zsec_pistol/crouch_aim.md5anim 
 	anim crouch_range_attack		models/md5/monsters/zombies/zsec_pistol/crouch_raise.md5anim 
 	anim crouch_range_attack_loop	models/md5/monsters/zombies/zsec_pistol/crouch_fire.md5anim {
-		frame 1						sound_weapon monster_pistol_fire
+		frame 1						sound_weapon player_pistol_fire
 		frame 1						launch_missile pistol
 	}					
 	anim crouch_range_attack_end	models/md5/monsters/zombies/zsec_pistol/crouch_lower.md5anim {
@@ -451,11 +451,11 @@ entityDef monster_zsec_pistol {
 model model_monster_zsec_pistol_slowfire {
 	inherit 						model_monster_zsec_pistol
 	anim range_attack_loop			models/md5/monsters/zombies/zsec_pistol/fire1.md5anim {
-		frame 1						sound_weapon monster_pistol_fire
+		frame 1						sound_weapon player_pistol_fire
 		frame 1						launch_missile pistol
 	}
 	anim crouch_range_attack_loop	models/md5/monsters/zombies/zsec_pistol/crouch_fire.md5anim {
-		frame 1						sound_weapon monster_pistol_fire
+		frame 1						sound_weapon player_pistol_fire
 		frame 1						launch_missile pistol
 	}		
 

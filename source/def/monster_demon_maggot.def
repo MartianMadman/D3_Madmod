@@ -218,12 +218,12 @@ entityDef monster_demon_maggot {
 	"use_aas"						"aas48"
 	"team"							"1"
 	"rank"							"1"
-	"health"						"80"
+	"health"						"160"
 	"melee_range"					"48"
 	"turn_rate"						"360"
 	"mass"							"200"
 		
-	"burnaway"						"50"
+	"burnaway"						"40"
 	"smoke_burnParticleSystem"			"burn_imp.prt-chest"
 
 	"ragdoll"						"monster_demon_maggot"

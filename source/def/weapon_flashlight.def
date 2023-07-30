@@ -56,8 +56,8 @@ entityDef weapon_flashlight {
 	"flashTime"					"0.016"
 	"flashRadius"				"400"
 	"silent_fire"				"1"
-	"recoilTime"				"75"
-	"recoilAngles"				"-1 0 0"
+	"recoilTime"				"200"
+	"recoilAngles"				"1 0 0"
 	"flashAngle"				"22.0"
 	"flashTarget"				"100 100 1280"
 	"flashUp"					"0 800 0"
@@ -105,7 +105,7 @@ model viewmodel_flashlight {
 }
 
 entityDef	damage_flashlight {
-	"damage"			"30" //may31 -Tim may be too high
+	"damage"			"40" //may31 -Tim may be too high
 	"kickDir"			"-1 0 0"
 
 	"mtr_blob"			"genericDamage"

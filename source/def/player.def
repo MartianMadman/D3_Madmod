@@ -776,9 +776,9 @@ entityDef player_base {
 	
 	"pm_jumpheight"						"55"
 	"pm_stepsize"						"16"
-	"pm_crouchspeed"					"200"
+	"pm_crouchspeed"					"150"
 	"pm_walkspeed"						"300"
-	"pm_runspeed"						"200"
+	"pm_runspeed"						"150"
 	"pm_noclipspeed"					"200"
 	"pm_minviewpitch"					"-89"	// looking up
 	"pm_maxviewpitch"					"89"	// looking down

@@ -115,7 +115,7 @@ entityDef monster_demon_vulgar {
 	"melee_range"					"84"
 	"bone_focus"					"head_FK"
 	
-	"burnaway"						"50"
+	"burnaway"						"40"
 	"smoke_burnParticleSystem"			"burn_imp.prt-root"
 	
 	"look_min"						"-90 -125 0"

@@ -170,7 +170,7 @@ entityDef projectile_grenade {
 	"contact_friction"			"0.1"
 	"bounce"					"0.7"				// how much speed a projectile retains when it bounces off of objects (coefficient of restitution).  0 means no bounce.
 	"mass"						"10"
-	"gravity"					"666"				// how much gravity affects the trajectory.  gravity direction is same as the entity that fired it.
+	"gravity"					"1066"				// how much gravity affects the trajectory.  gravity direction is same as the entity that fired it.
 	"fuse"						"3"					// how long before the projectile is removed or self-detonates.  Use 0 for beam weapons (velocity == distance).
 						
 	"detonate_on_fuse"			"1"					// whether projectile should detonate when it's fuse runs out

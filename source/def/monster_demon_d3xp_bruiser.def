@@ -62,7 +62,7 @@ entityDef monster_demon_d3xp_bruiser {
 	"attack_accuracy"				"0"
 	"melee_range"					"48"
 	"bone_focus"					"Head"
-	"burnaway"						"50"
+	"burnaway"						"40"
 	"smoke_burnParticleSystem"		"burn_imp.prt-chest"
 	"delay"							"2"
 	

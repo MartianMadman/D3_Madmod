@@ -60,11 +60,11 @@ model model_monster_zsec_shotgun {
 		frame 16						sound_body monster_zombie_security_footstep
 		frame 20						sound_body monster_zombie_security_footstep
 		frame 23						launch_missile shotgun
-		frame 23						sound_weapon monster_shotgun_fire
+		frame 23						sound_weapon player_shotgun_fire
 		frame 38						launch_missile shotgun
-		frame 38						sound_weapon monster_shotgun_fire
+		frame 38						sound_weapon player_shotgun_fire
 		frame 54						launch_missile shotgun
-		frame 54						sound_weapon monster_shotgun_fire
+		frame 54						sound_weapon player_shotgun_fire
 	}
 
 	anim sight						models/md5/monsters/zombies/zsec_shotgun/sight.md5anim {
@@ -85,7 +85,7 @@ model model_monster_zsec_shotgun {
 
 	anim crouch_range_attack		models/md5/monsters/zombies/zsec_shotgun/crouch_range_attack.md5anim
 	anim crouch_range_attack_loop	models/md5/monsters/zombies/zsec_shotgun/crouch_range_attack_loop.md5anim {
-		frame 1							sound_weapon monster_shotgun_fire
+		frame 1							sound_weapon player_shotgun_fire
 		frame 1							launch_missile shotgun
 	}
 	anim crouch_range_attack_end	models/md5/monsters/zombies/zsec_shotgun/crouch_range_attack_end.md5anim
@@ -123,7 +123,7 @@ model model_monster_zsec_shotgun {
 	}
 	anim stepoutright_fire			models/md5/monsters/zombies/zsec_shotgun/wallleanrightshotgun_C.md5anim {
 		frame 2							launch_missile shotgun
-		frame 2							sound_weapon monster_shotgun_fire
+		frame 2							sound_weapon player_shotgun_fire
 	}
 	anim stepoutright_in			models/md5/monsters/zombies/zsec_shotgun/wallleanrightshotgun_D.md5anim {
 		frame 15						sound_body monster_zombie_security_footstep
@@ -135,7 +135,7 @@ model model_monster_zsec_shotgun {
 	}
 	anim stepoutleft_fire			models/md5/monsters/zombies/zsec_shotgun/wallleanleftshotgun_C.md5anim {
 		frame 2							launch_missile shotgun
-		frame 2							sound_weapon monster_shotgun_fire
+		frame 2							sound_weapon player_shotgun_fire
 	}
 	anim stepoutleft_in				models/md5/monsters/zombies/zsec_shotgun/wallleanleftshotgun_D.md5anim {
 		frame 15						sound_body monster_zombie_security_footstep
@@ -147,7 +147,7 @@ model model_monster_zsec_shotgun {
 	}
 	anim leanoutright_fire			models/md5/monsters/zombies/zsec_shotgun/wallleanrightshotgun_C.md5anim {
 		frame 2							launch_missile shotgun
-		frame 2							sound_weapon monster_shotgun_fire
+		frame 2							sound_weapon player_shotgun_fire
 	}
 	anim leanoutright_in			models/md5/monsters/zombies/zsec_shotgun/wallleanrightshotgun_D.md5anim {
 		frame 15						sound_body monster_zombie_security_footstep
@@ -160,7 +160,7 @@ model model_monster_zsec_shotgun {
 	}
 	anim leanoutleft_fire			models/md5/monsters/zombies/zsec_shotgun/wallleanleftshotgun_C.md5anim {
 		frame 2							launch_missile shotgun
-		frame 2							sound_weapon monster_shotgun_fire
+		frame 2							sound_weapon player_shotgun_fire
 	}
 	anim leanoutleft_in				models/md5/monsters/zombies/zsec_shotgun/wallleanleftshotgun_D.md5anim {
 		frame 15						sound_body monster_zombie_security_footstep
@@ -170,7 +170,7 @@ model model_monster_zsec_shotgun {
 	anim cratestand_out				models/md5/monsters/zombies/zsec_shotgun/crate_up_B.md5anim
 	anim cratestand_fire			models/md5/monsters/zombies/zsec_shotgun/crate_up_C.md5anim {
 		frame 2							launch_missile shotgun
-		frame 2							sound_weapon monster_shotgun_fire
+		frame 2							sound_weapon player_shotgun_fire
 	}
 	anim cratestand_in				models/md5/monsters/zombies/zsec_shotgun/crate_up_D.md5anim
 	anim cratestand_wait			models/md5/monsters/zombies/zsec_shotgun/crate_up_A.md5anim
@@ -180,7 +180,7 @@ model model_monster_zsec_shotgun {
 	}
 	anim rotoutleft1_fire			models/md5/monsters/zombies/zsec_shotgun/wallrotleftshotgun_C.md5anim {
 		frame 2							launch_missile shotgun
-		frame 2							sound_weapon monster_shotgun_fire
+		frame 2							sound_weapon player_shotgun_fire
 	}
 	anim rotoutleft1_in				models/md5/monsters/zombies/zsec_shotgun/wallrotleftshotgun_D.md5anim {
 		frame 13						sound_body monster_zombie_security_footstep
@@ -192,7 +192,7 @@ model model_monster_zsec_shotgun {
 	}
 	anim rotoutright1_fire			models/md5/monsters/zombies/zsec_shotgun/wallrotrightshotgun_C.md5anim {
 		frame 2							launch_missile shotgun
-		frame 2							sound_weapon monster_shotgun_fire
+		frame 2							sound_weapon player_shotgun_fire
 	}
 	anim rotoutright1_in			models/md5/monsters/zombies/zsec_shotgun/wallrotrightshotgun_D.md5anim {
 		frame 14						sound_body monster_zombie_security_footstep
@@ -204,7 +204,7 @@ model model_monster_zsec_shotgun {
 	}
 	anim rotoutleft2_fire			models/md5/monsters/zombies/zsec_shotgun/wallrotleftshotgun_C.md5anim {
 		frame 2							launch_missile shotgun
-		frame 2							sound_weapon monster_shotgun_fire
+		frame 2							sound_weapon player_shotgun_fire
 	}
 	anim rotoutleft2_in				models/md5/monsters/zombies/zsec_shotgun/wallrotleftshotgun_D.md5anim {
 		frame 13						sound_body monster_zombie_security_footstep
@@ -216,7 +216,7 @@ model model_monster_zsec_shotgun {
 	}
 	anim rotoutright2_fire			models/md5/monsters/zombies/zsec_shotgun/wallrotrightshotgun_C.md5anim {
 		frame 2							launch_missile shotgun
-		frame 2							sound_weapon monster_shotgun_fire
+		frame 2							sound_weapon player_shotgun_fire
 	}
 	anim rotoutright2_in			models/md5/monsters/zombies/zsec_shotgun/wallrotrightshotgun_D.md5anim {
 		frame 14						sound_body monster_zombie_security_footstep
@@ -225,11 +225,11 @@ model model_monster_zsec_shotgun {
 
 	anim range_attack				models/md5/monsters/zombies/zsec_shotgun/raise.md5anim
 	anim range_attack_loop1			models/md5/monsters/zombies/zsec_shotgun/stand_fire.md5anim {
-		frame 1							sound_weapon monster_shotgun_fire
+		frame 1							sound_weapon player_shotgun_fire
 		frame 1							launch_missile shotgun
 	}
 	anim range_attack_loop2			models/md5/monsters/zombies/zsec_shotgun/stand_fire.md5anim {
-		frame 1							sound_weapon monster_shotgun_fire
+		frame 1							sound_weapon player_shotgun_fire
 		frame 1							launch_missile shotgun
 	}
 	anim range_attack_end			models/md5/monsters/zombies/zsec_shotgun/lower.md5anim
@@ -237,7 +237,7 @@ model model_monster_zsec_shotgun {
 	anim crate_up_out				models/md5/monsters/zombies/zsec_shotgun/crate_up_B.md5anim
 	anim crate_up_fire				models/md5/monsters/zombies/zsec_shotgun/crate_up_C.md5anim {
 		frame 2							launch_missile shotgun
-		frame 2							sound_weapon monster_shotgun_fire
+		frame 2							sound_weapon player_shotgun_fire
 	}
 	anim crate_up_in				models/md5/monsters/zombies/zsec_shotgun/crate_up_D.md5anim
 	anim crate_up_wait				models/md5/monsters/zombies/zsec_shotgun/crate_up_A.md5anim

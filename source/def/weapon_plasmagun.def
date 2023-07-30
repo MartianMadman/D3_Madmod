@@ -72,6 +72,8 @@ entityDef weapon_plasmagun {
 	"flashColor"				"0.18 0.70 0.82"
 	"flashRadius"				"200"
 	"silent_fire"				"0"
+	"recoilTime"				"100"
+	"recoilAngles"				"-2 0 0"
 	"smoke_muzzle"				"plasmamuzzlesmoke.prt"
 	"gib"				"0"
 

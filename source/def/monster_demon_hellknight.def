@@ -168,7 +168,7 @@ entityDef monster_demon_hellknight {
 	"mass"							"600"
 	"pain_threshold"				"25"	
 	
-	"burnaway"						"50"
+	"burnaway"						"40"
 	"smoke_burnParticleSystem"			"burn_imp.prt-chest"
 	
 	"ik_numLegs"					"2"

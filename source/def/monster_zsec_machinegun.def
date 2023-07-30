@@ -108,25 +108,25 @@ model model_monster_zsec_machinegun {
 	
 	anim crouch_range_attack		models/md5/monsters/zombies/zsec_machinegun/machinegun_crouch_range_attack.md5anim
 	anim crouch_range_attack_loop	models/md5/monsters/zombies/zsec_machinegun/machinegun_crouch_range_attack_loop.md5anim {
-		frame 4						sound_weapon monster_machinegun_fire	
+		frame 4						sound_weapon player_machinegun_fire	
 		frame 4							launch_missile barrel
-		frame 7						sound_weapon monster_machinegun_fire	
+		frame 7						sound_weapon player_machinegun_fire	
 		frame 7							launch_missile barrel
-		frame 10					sound_weapon monster_machinegun_fire	
+		frame 10					sound_weapon player_machinegun_fire	
 		frame 10						launch_missile barrel
-		frame 13					sound_weapon monster_machinegun_fire	
+		frame 13					sound_weapon player_machinegun_fire	
 		frame 13						launch_missile barrel
-		frame 16					sound_weapon monster_machinegun_fire	
+		frame 16					sound_weapon player_machinegun_fire	
 		frame 16						launch_missile barrel
-		frame 19					sound_weapon monster_machinegun_fire	
+		frame 19					sound_weapon player_machinegun_fire	
 		frame 19						launch_missile barrel
-		frame 22					sound_weapon monster_machinegun_fire	
+		frame 22					sound_weapon player_machinegun_fire	
 		frame 22						launch_missile barrel
-		frame 25					sound_weapon monster_machinegun_fire	
+		frame 25					sound_weapon player_machinegun_fire	
 		frame 25						launch_missile barrel
-		frame 28					sound_weapon monster_machinegun_fire	
+		frame 28					sound_weapon player_machinegun_fire	
 		frame 28						launch_missile barrel
-		frame 31					sound_weapon monster_machinegun_fire	
+		frame 31					sound_weapon player_machinegun_fire	
 		frame 31						launch_missile barrel
 
 	}
@@ -200,25 +200,25 @@ model model_monster_zsec_machinegun {
 		frame 8							sound_body monster_zombie_security_footstep
 	}
 	anim stepoutright_fire			models/md5/monsters/zombies/zsec_machinegun/machinegun_wallleanright_C.md5anim {
-		frame 4						sound_weapon monster_machinegun_fire	
+		frame 4						sound_weapon player_machinegun_fire	
 		frame 4							launch_missile barrel
-		frame 7						sound_weapon monster_machinegun_fire	
+		frame 7						sound_weapon player_machinegun_fire	
 		frame 7							launch_missile barrel
-		frame 10					sound_weapon monster_machinegun_fire	
+		frame 10					sound_weapon player_machinegun_fire	
 		frame 10						launch_missile barrel
-		frame 13					sound_weapon monster_machinegun_fire	
+		frame 13					sound_weapon player_machinegun_fire	
 		frame 13						launch_missile barrel
-		frame 16					sound_weapon monster_machinegun_fire	
+		frame 16					sound_weapon player_machinegun_fire	
 		frame 16						launch_missile barrel
-		frame 19					sound_weapon monster_machinegun_fire	
+		frame 19					sound_weapon player_machinegun_fire	
 		frame 19						launch_missile barrel
-		frame 22					sound_weapon monster_machinegun_fire	
+		frame 22					sound_weapon player_machinegun_fire	
 		frame 22						launch_missile barrel
-		frame 25					sound_weapon monster_machinegun_fire	
+		frame 25					sound_weapon player_machinegun_fire	
 		frame 25						launch_missile barrel
-		frame 28					sound_weapon monster_machinegun_fire	
+		frame 28					sound_weapon player_machinegun_fire	
 		frame 28						launch_missile barrel
-		frame 31					sound_weapon monster_machinegun_fire	
+		frame 31					sound_weapon player_machinegun_fire	
 		frame 31						launch_missile barrel
 	}
 	anim stepoutright_in			models/md5/monsters/zombies/zsec_machinegun/machinegun_wallleanright_D.md5anim {
@@ -231,25 +231,25 @@ model model_monster_zsec_machinegun {
 		frame 11						sound_body monster_zombie_security_footstep
 	}
 	anim stepoutleft_fire			models/md5/monsters/zombies/zsec_machinegun/machinegun_wallleanleft_C.md5anim {
-		frame 4						sound_weapon monster_machinegun_fire	
+		frame 4						sound_weapon player_machinegun_fire	
 		frame 4							launch_missile barrel
-		frame 7						sound_weapon monster_machinegun_fire	
+		frame 7						sound_weapon player_machinegun_fire	
 		frame 7							launch_missile barrel
-		frame 10					sound_weapon monster_machinegun_fire	
+		frame 10					sound_weapon player_machinegun_fire	
 		frame 10						launch_missile barrel
-		frame 13					sound_weapon monster_machinegun_fire	
+		frame 13					sound_weapon player_machinegun_fire	
 		frame 13						launch_missile barrel
-		frame 16					sound_weapon monster_machinegun_fire	
+		frame 16					sound_weapon player_machinegun_fire	
 		frame 16						launch_missile barrel
-		frame 19					sound_weapon monster_machinegun_fire	
+		frame 19					sound_weapon player_machinegun_fire	
 		frame 19						launch_missile barrel
-		frame 22					sound_weapon monster_machinegun_fire	
+		frame 22					sound_weapon player_machinegun_fire	
 		frame 22						launch_missile barrel
-		frame 25					sound_weapon monster_machinegun_fire	
+		frame 25					sound_weapon player_machinegun_fire	
 		frame 25						launch_missile barrel
-		frame 28					sound_weapon monster_machinegun_fire	
+		frame 28					sound_weapon player_machinegun_fire	
 		frame 28						launch_missile barrel
-		frame 31					sound_weapon monster_machinegun_fire	
+		frame 31					sound_weapon player_machinegun_fire	
 		frame 31						launch_missile barrel
 	}
 	anim stepoutleft_in				models/md5/monsters/zombies/zsec_machinegun/machinegun_wallleanleft_D.md5anim {
@@ -261,25 +261,25 @@ model model_monster_zsec_machinegun {
 		frame 10						sound_body monster_zombie_security_footstep
 	}
 	anim leanoutright_fire			models/md5/monsters/zombies/zsec_machinegun/machinegun_wallleanright_C.md5anim {
-		frame 4						sound_weapon monster_machinegun_fire	
+		frame 4						sound_weapon player_machinegun_fire	
 		frame 4							launch_missile barrel
-		frame 7						sound_weapon monster_machinegun_fire	
+		frame 7						sound_weapon player_machinegun_fire	
 		frame 7							launch_missile barrel
-		frame 10					sound_weapon monster_machinegun_fire	
+		frame 10					sound_weapon player_machinegun_fire	
 		frame 10						launch_missile barrel
-		frame 13					sound_weapon monster_machinegun_fire	
+		frame 13					sound_weapon player_machinegun_fire	
 		frame 13						launch_missile barrel
-		frame 16					sound_weapon monster_machinegun_fire	
+		frame 16					sound_weapon player_machinegun_fire	
 		frame 16						launch_missile barrel
-		frame 19					sound_weapon monster_machinegun_fire	
+		frame 19					sound_weapon player_machinegun_fire	
 		frame 19						launch_missile barrel
-		frame 22					sound_weapon monster_machinegun_fire	
+		frame 22					sound_weapon player_machinegun_fire	
 		frame 22						launch_missile barrel
-		frame 25					sound_weapon monster_machinegun_fire	
+		frame 25					sound_weapon player_machinegun_fire	
 		frame 25						launch_missile barrel
-		frame 28					sound_weapon monster_machinegun_fire	
+		frame 28					sound_weapon player_machinegun_fire	
 		frame 28						launch_missile barrel
-		frame 31					sound_weapon monster_machinegun_fire	
+		frame 31					sound_weapon player_machinegun_fire	
 		frame 31						launch_missile barrel
 	}
 	anim leanoutright_in			models/md5/monsters/zombies/zsec_machinegun/machinegun_wallleanright_D.md5anim {
@@ -291,25 +291,25 @@ model model_monster_zsec_machinegun {
 		frame 10					sound_body monster_zombie_security_footstep
 	}
 	anim leanoutleft_fire			models/md5/monsters/zombies/zsec_machinegun/machinegun_wallleanleft_C.md5anim {
-		frame 4						sound_weapon monster_machinegun_fire	
+		frame 4						sound_weapon player_machinegun_fire	
 		frame 4							launch_missile barrel
-		frame 7						sound_weapon monster_machinegun_fire	
+		frame 7						sound_weapon player_machinegun_fire	
 		frame 7							launch_missile barrel
-		frame 10					sound_weapon monster_machinegun_fire	
+		frame 10					sound_weapon player_machinegun_fire	
 		frame 10						launch_missile barrel
-		frame 13					sound_weapon monster_machinegun_fire	
+		frame 13					sound_weapon player_machinegun_fire	
 		frame 13						launch_missile barrel
-		frame 16					sound_weapon monster_machinegun_fire	
+		frame 16					sound_weapon player_machinegun_fire	
 		frame 16						launch_missile barrel
-		frame 19					sound_weapon monster_machinegun_fire	
+		frame 19					sound_weapon player_machinegun_fire	
 		frame 19						launch_missile barrel
-		frame 22					sound_weapon monster_machinegun_fire	
+		frame 22					sound_weapon player_machinegun_fire	
 		frame 22						launch_missile barrel
-		frame 25					sound_weapon monster_machinegun_fire	
+		frame 25					sound_weapon player_machinegun_fire	
 		frame 25						launch_missile barrel
-		frame 28					sound_weapon monster_machinegun_fire	
+		frame 28					sound_weapon player_machinegun_fire	
 		frame 28						launch_missile barrel
-		frame 31					sound_weapon monster_machinegun_fire	
+		frame 31					sound_weapon player_machinegun_fire	
 		frame 31						launch_missile barrel
 	}
 	anim leanoutleft_in				models/md5/monsters/zombies/zsec_machinegun/machinegun_wallleanleft_D.md5anim {
@@ -319,25 +319,25 @@ model model_monster_zsec_machinegun {
 
 	anim cratestand_out				models/md5/monsters/zombies/zsec_machinegun/machinegun_crate_up_B.md5anim
 	anim cratestand_fire			models/md5/monsters/zombies/zsec_machinegun/machinegun_crate_up_C.md5anim {
-		frame 4						sound_weapon monster_machinegun_fire	
+		frame 4						sound_weapon player_machinegun_fire	
 		frame 4							launch_missile barrel
-		frame 7						sound_weapon monster_machinegun_fire	
+		frame 7						sound_weapon player_machinegun_fire	
 		frame 7							launch_missile barrel
-		frame 10					sound_weapon monster_machinegun_fire	
+		frame 10					sound_weapon player_machinegun_fire	
 		frame 10						launch_missile barrel
-		frame 13					sound_weapon monster_machinegun_fire	
+		frame 13					sound_weapon player_machinegun_fire	
 		frame 13						launch_missile barrel
-		frame 16					sound_weapon monster_machinegun_fire	
+		frame 16					sound_weapon player_machinegun_fire	
 		frame 16						launch_missile barrel
-		frame 19					sound_weapon monster_machinegun_fire	
+		frame 19					sound_weapon player_machinegun_fire	
 		frame 19						launch_missile barrel
-		frame 22					sound_weapon monster_machinegun_fire	
+		frame 22					sound_weapon player_machinegun_fire	
 		frame 22						launch_missile barrel
-		frame 25					sound_weapon monster_machinegun_fire	
+		frame 25					sound_weapon player_machinegun_fire	
 		frame 25						launch_missile barrel
-		frame 28					sound_weapon monster_machinegun_fire	
+		frame 28					sound_weapon player_machinegun_fire	
 		frame 28						launch_missile barrel
-		frame 31					sound_weapon monster_machinegun_fire	
+		frame 31					sound_weapon player_machinegun_fire	
 		frame 31						launch_missile barrel
 	}
 	anim cratestand_in				models/md5/monsters/zombies/zsec_machinegun/machinegun_crate_up_D.md5anim
@@ -347,25 +347,25 @@ model model_monster_zsec_machinegun {
 		frame 8						sound_body monster_zombie_security_footstep
 	}
 	anim rotoutleft1_fire			models/md5/monsters/zombies/zsec_machinegun/machinegun_wallrotleft_C.md5anim {
-		frame 4						sound_weapon monster_machinegun_fire	
+		frame 4						sound_weapon player_machinegun_fire	
 		frame 4							launch_missile barrel
-		frame 7						sound_weapon monster_machinegun_fire	
+		frame 7						sound_weapon player_machinegun_fire	
 		frame 7							launch_missile barrel
-		frame 10					sound_weapon monster_machinegun_fire	
+		frame 10					sound_weapon player_machinegun_fire	
 		frame 10						launch_missile barrel
-		frame 13					sound_weapon monster_machinegun_fire	
+		frame 13					sound_weapon player_machinegun_fire	
 		frame 13						launch_missile barrel
-		frame 16					sound_weapon monster_machinegun_fire	
+		frame 16					sound_weapon player_machinegun_fire	
 		frame 16						launch_missile barrel
-		frame 19					sound_weapon monster_machinegun_fire	
+		frame 19					sound_weapon player_machinegun_fire	
 		frame 19						launch_missile barrel
-		frame 22					sound_weapon monster_machinegun_fire	
+		frame 22					sound_weapon player_machinegun_fire	
 		frame 22						launch_missile barrel
-		frame 25					sound_weapon monster_machinegun_fire	
+		frame 25					sound_weapon player_machinegun_fire	
 		frame 25						launch_missile barrel
-		frame 28					sound_weapon monster_machinegun_fire	
+		frame 28					sound_weapon player_machinegun_fire	
 		frame 28						launch_missile barrel
-		frame 31					sound_weapon monster_machinegun_fire	
+		frame 31					sound_weapon player_machinegun_fire	
 		frame 31						launch_missile barrel
 	}
 	anim rotoutleft1_in				models/md5/monsters/zombies/zsec_machinegun/machinegun_wallrotleft_D.md5anim {
@@ -377,25 +377,25 @@ model model_monster_zsec_machinegun {
 		frame 6						sound_body monster_zombie_security_footstep
 	}
 	anim rotoutright1_fire			models/md5/monsters/zombies/zsec_machinegun/machinegun_wallrotright_C.md5anim {
-		frame 4						sound_weapon monster_machinegun_fire	
+		frame 4						sound_weapon player_machinegun_fire	
 		frame 4							launch_missile barrel
-		frame 7						sound_weapon monster_machinegun_fire	
+		frame 7						sound_weapon player_machinegun_fire	
 		frame 7							launch_missile barrel
-		frame 10					sound_weapon monster_machinegun_fire	
+		frame 10					sound_weapon player_machinegun_fire	
 		frame 10						launch_missile barrel
-		frame 13					sound_weapon monster_machinegun_fire	
+		frame 13					sound_weapon player_machinegun_fire	
 		frame 13						launch_missile barrel
-		frame 16					sound_weapon monster_machinegun_fire	
+		frame 16					sound_weapon player_machinegun_fire	
 		frame 16						launch_missile barrel
-		frame 19					sound_weapon monster_machinegun_fire	
+		frame 19					sound_weapon player_machinegun_fire	
 		frame 19						launch_missile barrel
-		frame 22					sound_weapon monster_machinegun_fire	
+		frame 22					sound_weapon player_machinegun_fire	
 		frame 22						launch_missile barrel
-		frame 25					sound_weapon monster_machinegun_fire	
+		frame 25					sound_weapon player_machinegun_fire	
 		frame 25						launch_missile barrel
-		frame 28					sound_weapon monster_machinegun_fire	
+		frame 28					sound_weapon player_machinegun_fire	
 		frame 28						launch_missile barrel
-		frame 31					sound_weapon monster_machinegun_fire	
+		frame 31					sound_weapon player_machinegun_fire	
 		frame 31						launch_missile barrel
 	}
 	anim rotoutright1_in			models/md5/monsters/zombies/zsec_machinegun/machinegun_wallrotright_D.md5anim {
@@ -407,25 +407,25 @@ model model_monster_zsec_machinegun {
 		frame 8						sound_body monster_zombie_security_footstep
 	}
 	anim rotoutleft2_fire			models/md5/monsters/zombies/zsec_machinegun/machinegun_wallrotleft_C.md5anim {
-		frame 4						sound_weapon monster_machinegun_fire	
+		frame 4						sound_weapon player_machinegun_fire	
 		frame 4							launch_missile barrel
-		frame 7						sound_weapon monster_machinegun_fire	
+		frame 7						sound_weapon player_machinegun_fire	
 		frame 7							launch_missile barrel
-		frame 10					sound_weapon monster_machinegun_fire	
+		frame 10					sound_weapon player_machinegun_fire	
 		frame 10						launch_missile barrel
-		frame 13					sound_weapon monster_machinegun_fire	
+		frame 13					sound_weapon player_machinegun_fire	
 		frame 13						launch_missile barrel
-		frame 16					sound_weapon monster_machinegun_fire	
+		frame 16					sound_weapon player_machinegun_fire	
 		frame 16						launch_missile barrel
-		frame 19					sound_weapon monster_machinegun_fire	
+		frame 19					sound_weapon player_machinegun_fire	
 		frame 19						launch_missile barrel
-		frame 22					sound_weapon monster_machinegun_fire	
+		frame 22					sound_weapon player_machinegun_fire	
 		frame 22						launch_missile barrel
-		frame 25					sound_weapon monster_machinegun_fire	
+		frame 25					sound_weapon player_machinegun_fire	
 		frame 25						launch_missile barrel
-		frame 28					sound_weapon monster_machinegun_fire	
+		frame 28					sound_weapon player_machinegun_fire	
 		frame 28						launch_missile barrel
-		frame 31					sound_weapon monster_machinegun_fire	
+		frame 31					sound_weapon player_machinegun_fire	
 		frame 31						launch_missile barrel
 	}
 	anim rotoutleft2_in				models/md5/monsters/zombies/zsec_machinegun/machinegun_wallrotleft_D.md5anim {
@@ -437,25 +437,25 @@ model model_monster_zsec_machinegun {
 		frame 6						sound_body monster_zombie_security_footstep
 	}
 	anim rotoutright2_fire			models/md5/monsters/zombies/zsec_machinegun/machinegun_wallrotright_C.md5anim {
-		frame 4						sound_weapon monster_machinegun_fire	
+		frame 4						sound_weapon player_machinegun_fire	
 		frame 4							launch_missile barrel
-		frame 7						sound_weapon monster_machinegun_fire	
+		frame 7						sound_weapon player_machinegun_fire	
 		frame 7							launch_missile barrel
-		frame 10					sound_weapon monster_machinegun_fire	
+		frame 10					sound_weapon player_machinegun_fire	
 		frame 10						launch_missile barrel
-		frame 13					sound_weapon monster_machinegun_fire	
+		frame 13					sound_weapon player_machinegun_fire	
 		frame 13						launch_missile barrel
-		frame 16					sound_weapon monster_machinegun_fire	
+		frame 16					sound_weapon player_machinegun_fire	
 		frame 16						launch_missile barrel
-		frame 19					sound_weapon monster_machinegun_fire	
+		frame 19					sound_weapon player_machinegun_fire	
 		frame 19						launch_missile barrel
-		frame 22					sound_weapon monster_machinegun_fire	
+		frame 22					sound_weapon player_machinegun_fire	
 		frame 22						launch_missile barrel
-		frame 25					sound_weapon monster_machinegun_fire	
+		frame 25					sound_weapon player_machinegun_fire	
 		frame 25						launch_missile barrel
-		frame 28					sound_weapon monster_machinegun_fire	
+		frame 28					sound_weapon player_machinegun_fire	
 		frame 28						launch_missile barrel
-		frame 31					sound_weapon monster_machinegun_fire	
+		frame 31					sound_weapon player_machinegun_fire	
 		frame 31						launch_missile barrel
 	}
 	anim rotoutright2_in			models/md5/monsters/zombies/zsec_machinegun/machinegun_wallrotright_D.md5anim {
@@ -465,72 +465,72 @@ model model_monster_zsec_machinegun {
 
 	anim range_attack				models/md5/monsters/zombies/zsec_machinegun/machinegun_raise.md5anim
 	anim range_attack_loop1			models/md5/monsters/zombies/zsec_machinegun/machinegun_stand_fire.md5anim {
-		frame 4						sound_weapon monster_machinegun_fire	
+		frame 4						sound_weapon player_machinegun_fire	
 		frame 4							launch_missile barrel
-		frame 7						sound_weapon monster_machinegun_fire	
+		frame 7						sound_weapon player_machinegun_fire	
 		frame 7							launch_missile barrel
-		frame 10					sound_weapon monster_machinegun_fire	
+		frame 10					sound_weapon player_machinegun_fire	
 		frame 10						launch_missile barrel
-		frame 13					sound_weapon monster_machinegun_fire	
+		frame 13					sound_weapon player_machinegun_fire	
 		frame 13						launch_missile barrel
-		frame 16					sound_weapon monster_machinegun_fire	
+		frame 16					sound_weapon player_machinegun_fire	
 		frame 16						launch_missile barrel
-		frame 19					sound_weapon monster_machinegun_fire	
+		frame 19					sound_weapon player_machinegun_fire	
 		frame 19						launch_missile barrel
-		frame 22					sound_weapon monster_machinegun_fire	
+		frame 22					sound_weapon player_machinegun_fire	
 		frame 22						launch_missile barrel
-		frame 25					sound_weapon monster_machinegun_fire	
+		frame 25					sound_weapon player_machinegun_fire	
 		frame 25						launch_missile barrel
-		frame 28					sound_weapon monster_machinegun_fire	
+		frame 28					sound_weapon player_machinegun_fire	
 		frame 28						launch_missile barrel
-		frame 31					sound_weapon monster_machinegun_fire	
+		frame 31					sound_weapon player_machinegun_fire	
 		frame 31						launch_missile barrel
 	}
 	anim range_attack_loop2			models/md5/monsters/zombies/zsec_machinegun/machinegun_stand_fire.md5anim {
-		frame 4						sound_weapon monster_machinegun_fire	
+		frame 4						sound_weapon player_machinegun_fire	
 		frame 4							launch_missile barrel
-		frame 7						sound_weapon monster_machinegun_fire	
+		frame 7						sound_weapon player_machinegun_fire	
 		frame 7							launch_missile barrel
-		frame 10					sound_weapon monster_machinegun_fire	
+		frame 10					sound_weapon player_machinegun_fire	
 		frame 10						launch_missile barrel
-		frame 13					sound_weapon monster_machinegun_fire	
+		frame 13					sound_weapon player_machinegun_fire	
 		frame 13						launch_missile barrel
-		frame 16					sound_weapon monster_machinegun_fire	
+		frame 16					sound_weapon player_machinegun_fire	
 		frame 16						launch_missile barrel
-		frame 19					sound_weapon monster_machinegun_fire	
+		frame 19					sound_weapon player_machinegun_fire	
 		frame 19						launch_missile barrel
-		frame 22					sound_weapon monster_machinegun_fire	
+		frame 22					sound_weapon player_machinegun_fire	
 		frame 22						launch_missile barrel
-		frame 25					sound_weapon monster_machinegun_fire	
+		frame 25					sound_weapon player_machinegun_fire	
 		frame 25						launch_missile barrel
-		frame 28					sound_weapon monster_machinegun_fire	
+		frame 28					sound_weapon player_machinegun_fire	
 		frame 28						launch_missile barrel
-		frame 31					sound_weapon monster_machinegun_fire	
+		frame 31					sound_weapon player_machinegun_fire	
 		frame 31						launch_missile barrel
 	}
 	anim range_attack_end			models/md5/monsters/zombies/zsec_machinegun/machinegun_lower.md5anim
 
 	anim crate_up_out				models/md5/monsters/zombies/zsec_machinegun/machinegun_crate_up_B.md5anim
 	anim crate_up_fire				models/md5/monsters/zombies/zsec_machinegun/machinegun_crate_up_C.md5anim {
-		frame 4						sound_weapon monster_machinegun_fire	
+		frame 4						sound_weapon player_machinegun_fire	
 		frame 4							launch_missile barrel
-		frame 7						sound_weapon monster_machinegun_fire	
+		frame 7						sound_weapon player_machinegun_fire	
 		frame 7							launch_missile barrel
-		frame 10					sound_weapon monster_machinegun_fire	
+		frame 10					sound_weapon player_machinegun_fire	
 		frame 10						launch_missile barrel
-		frame 13					sound_weapon monster_machinegun_fire	
+		frame 13					sound_weapon player_machinegun_fire	
 		frame 13						launch_missile barrel
-		frame 16					sound_weapon monster_machinegun_fire	
+		frame 16					sound_weapon player_machinegun_fire	
 		frame 16						launch_missile barrel
-		frame 19					sound_weapon monster_machinegun_fire	
+		frame 19					sound_weapon player_machinegun_fire	
 		frame 19						launch_missile barrel
-		frame 22					sound_weapon monster_machinegun_fire	
+		frame 22					sound_weapon player_machinegun_fire	
 		frame 22						launch_missile barrel
-		frame 25					sound_weapon monster_machinegun_fire	
+		frame 25					sound_weapon player_machinegun_fire	
 		frame 25						launch_missile barrel
-		frame 28					sound_weapon monster_machinegun_fire	
+		frame 28					sound_weapon player_machinegun_fire	
 		frame 28						launch_missile barrel
-		frame 31					sound_weapon monster_machinegun_fire	
+		frame 31					sound_weapon player_machinegun_fire	
 		frame 31						launch_missile barrel
 	}
 	anim crate_up_in				models/md5/monsters/zombies/zsec_machinegun/machinegun_crate_up_D.md5anim

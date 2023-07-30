@@ -189,7 +189,7 @@ entityDef projectile_rocket {
 }
 
 entityDef damage_rocketDirect {
-	"damage"					"280"
+	"damage"					"170"
 	"push"						"1000"
 	"mtr_wound_flesh"			"textures/decals/hurt02"
 	"mtr_splat_flesh"			""

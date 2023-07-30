@@ -42,8 +42,8 @@ entityDef weapon_fists {
 	"flashColor"				""
 	"flashRadius"				"0"
 	"silent_fire"				"1"
-	"recoilTime"				"75"
-	"recoilAngles"				"-1 0 0"
+	"recoilTime"				"200"
+	"recoilAngles"				"1 0 0"
 
 	"hide_time"					"0.3"								// time to hide weapon when talking to npcs or looking at guis
 	"hide_distance"				"-15"								// distance to offset weapon when talking to npcs or looking at guis
@@ -70,7 +70,7 @@ model viewmodel_fists {
 }
 
 entityDef damage_fists {
-	"damage"			"20"
+	"damage"			"40"
 	"kickDir"			"-1 0 0"
 
 	"mtr_blob"			"genericDamage"

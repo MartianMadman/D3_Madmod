@@ -185,7 +185,7 @@ entityDef monster_zombie_sawyer {
 	"use_aas"						"aas48"
 	"team"							"1"
 	"rank"							"0"
-	"health"						"250"
+	"health"						"500"
 	"melee_range"					"40"
 	"anim"							"idle"
 	"def_projectile"				""
@@ -210,7 +210,7 @@ entityDef monster_zombie_sawyer {
 	"model"							"model_monster_zombie_sawyer"
 	"ragdoll"						"monster_zombie_sawyer"
 
-	"burnaway"						"50"
+	"burnaway"						"40"
 
 	"ik_numLegs"					"2"
 	"ik_footSize"					"4"
